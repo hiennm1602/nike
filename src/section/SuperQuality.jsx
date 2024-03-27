@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Button";
 import { shoe8 } from "../assets/images";
+import { arrowRight } from "../assets/icons";
 const SuperQuality = () => {
   return (
     <section
@@ -14,7 +15,7 @@ const SuperQuality = () => {
           <span className="text-coral-red">Super </span>
           <span className="text-coral-red">Quality</span> Shoe
         </h2>
-        <p className="fmt-4 lg:max-w-lg info-text">
+        <p className="mt-4 lg:max-w-lg info-text">
           Ensuring premium comfort and style, our meticulously crafted footwear
           is designed to elevate your experience, providing you with unmatched
           quality, innovation, and a touch of elegance.
@@ -23,7 +24,7 @@ const SuperQuality = () => {
           Our dedication to detail and excellence ensures your satisfaction
         </p>
         <div className="mt-11">
-          <Button label="View details" />
+          <Button label="Shop now" iconURL={arrowRight} />
         </div>
       </div>
       <div className="flex flex-1 justify-center items-center">
